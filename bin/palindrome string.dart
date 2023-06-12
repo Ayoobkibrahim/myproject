@@ -1,13 +1,12 @@
 import 'dart:io';
 void main(){
   print("Enter a string");
-  String? original =  stdin.readLineSync();
+  String data = stdin.readLineSync()!;
+  print(data.length);
+  String rev = data.split("").reversed.join("");
+  print("reversed string = $rev");
 
-
-  String? reverse = original!.split('').reversed.join('');
-
-
-  if(original == reverse)
+  if(data == rev)
   {
     print('Its A Palindrome');
 

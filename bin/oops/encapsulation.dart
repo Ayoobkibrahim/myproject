@@ -1,0 +1,4 @@
+class MyDatas{
+  String? name;
+
+}
