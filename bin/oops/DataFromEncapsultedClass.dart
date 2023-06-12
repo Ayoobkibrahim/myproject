@@ -11,4 +11,6 @@ void main(){
   print("age :${obj.getage}");
   print("phone :${obj.getphone}");
   print("email :${obj.getemail}");
+  print("phone :${obj.getcourse}");
+
 }
