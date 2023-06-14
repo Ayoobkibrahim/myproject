@@ -1,6 +1,7 @@
 /// class father and mother can be abstract or normal
 
 abstract class Father{
+
   void fdetails(String name , int age ,String job, int phone);
 }
 abstract class Mother{
