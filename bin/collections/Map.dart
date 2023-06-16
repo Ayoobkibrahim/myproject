@@ -5,7 +5,7 @@ void main() {
   ///literal way
 
   var m2 = <String, dynamic>{
-    "name": "riyas",
+    "name": "Ayoob",
     "phone": 9995412499,
     "age": 20
   };
